@@ -22,7 +22,7 @@ ENV DATA_DIR /data
 VOLUME ${DATA_DIR}
 
 # Kibana
-EXPOSE 9292
+EXPOSE 80
 
 # Start logstash
 ENTRYPOINT ["/app/bin/boot"]
